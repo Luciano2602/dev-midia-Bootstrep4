@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Óla Mundo</title>
+        <!-- Define a viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        
+        <meta charset="utf-8">
+         <!-- acionar CSS Bootstrap
+            <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+         
+         COLOCANDO O LINK PARA ESCONDER IMPRESSAO   
+         -->
+         <link href="css/bootstrap.min.css" rel="stylesheet" media="all">
+        
+        <!-- css personalizado
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+        
+        COLOCANDO O LINK PARA ESCONDER IMPRESSAO
+        -->
+         <link href="css/estilo.css" rel="stylesheet" media="all">
+    </head>
+    <body>
+        
+        <!--
+            muito pequeno ate 750 px
+            col-xs-1 ate 12 
+            <hr />
+            pequeno de 750 a 970 px
+            col-sm-1 ate 12
+            <hr />
+            medio de 970 a 1170 px
+            col-md-1 ate 12
+            <hr />
+            grande acima de 1170 px
+            col-lg-1 ate 12
+            <hr />
+        -->
+        
+        <div class="container">
+            <div class="row"> 
+                
+                <div class="col-xs-12">
+                    
+                    <!--para não imprimir determinado texto, temos que arrumar o HEAD colocando MEDIA="ALL" -->
+                    <h1 class="visible-print-block">Exibir somente na impressao da pagina</h1>
+                    <h1 class="hidden-print">Exibir somente na pagina</h1>
+                </div>
+                
+                
+                <div class="col-xs-12 bg-color-padding ">
+                    
+                    <h1>Responsive Utilities</h1>
+                    <p class="bg-primary visible-xs-block">Você esta na resolucao XS</p>
+                    <p class="bg-success visible-sm-block">Você esta na resolucao SM</p>
+                    <p class="bg-danger visible-md-block">Você esta na resolucao MD</p>
+                    <p class="bg-info visible-lg-block">Você esta na resolucao LG</p>
+                    
+                    <!-- mostrando apenas na resolução x
+                    
+                    <a href="#" class="btn btn-default visible-md-block visible-lg-block">Acesse nossa versão mobile!</a>
+
+                    -->
+                    <!-- escondendo apenas na resulçao x -->
+                    <a href="#" class="btn btn-default hidden-xs">Acesse nossa versão mobile!</a>
+                </div>
+                
+                <div class="col-xs-12 bg-color-padding hidden-print">
+                    
+                    <h1>Tipos</h1>
+                    
+                    <a href="#" class="visible-sm-block visible-lg-block btn btn-primary" >Block</a>
+                    <a href="#" class="visible-sm-block visible-lg-block btn btn-primary" >Block</a>
+                    <hr />
+                    <a href="#" class="visible-sm-inline visible-lg-inline btn btn-success">Inline</a>
+                    <a href="#" class="visible-sm-inline visible-lg-inline btn btn-success">Inline</a>
+                    <a href="#" class="visible-sm-inline-block visible-lg-inline-block btn btn-danger">Inline-block</a>                    
+                    <a href="#" class="visible-sm-inline-block visible-lg-inline-block btn btn-danger">Inline-block</a>
+                    
+                </div>
+            </div>
+        </div>
+         <br />
+         <br />
+         <br />
+         <br />
+       
+        
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>

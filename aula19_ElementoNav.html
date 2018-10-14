@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Óla Mundo</title>
+        <!-- Define a viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        
+        <meta charset="utf-8">
+         <!-- acionar CSS Bootstrap
+            <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+         
+         COLOCANDO O LINK PARA ESCONDER IMPRESSAO   
+         -->
+         <link href="css/bootstrap.min.css" rel="stylesheet" media="all">
+        
+        <!-- css personalizado
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+        
+        COLOCANDO O LINK PARA ESCONDER IMPRESSAO
+        -->
+         <link href="css/estilo.css" rel="stylesheet" media="all">
+    </head>
+    <body>
+        
+        <!--
+            muito pequeno ate 750 px
+            col-xs-1 ate 12 
+            <hr />
+            pequeno de 750 a 970 px
+            col-sm-1 ate 12
+            <hr />
+            medio de 970 a 1170 px
+            col-md-1 ate 12
+            <hr />
+            grande acima de 1170 px
+            col-lg-1 ate 12
+            <hr />
+        -->
+        
+        <div class="container">
+            <div class="row">                 
+                <div class="col-xs-12">
+                    <h1>Tabs</h1>
+                    
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="active"><a href="#">Titulo do Link</a></li>
+                        <li><a href="#">Titulo do Link</a></li>
+                        <li><a href="#">Titulo do Link</a></li>
+                        
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                Titulo do Link
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                 <li><a href="#">teste</a></li>
+                                 <li><a href="#">teste</a></li>
+                                 <li><a href="#">teste</a></li>
+                                 <li><a href="#">teste</a></li>
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                    
+                    <hr />
+                    
+                    <h2>Justified</h2>
+                    
+                    <ul class="nav nav-tabs nav-justified" role="tablist">
+                        <li class="active"><a href="#">Titulo do link</a></li>
+                        <li><a href="#">Titulo do link</a></li>
+                        <li><a href="#">Titulo do link</a></li>
+                        <li><a href="#">Titulo do link</a></li>
+                    </ul>
+                    
+                </div>
+                
+                <div class="col-xs-12">
+                    <h1>Pills</h1>
+                    <ul class="nav nav-pills">
+                        <li class="active"><a href="#">Titulo do link</a></li>
+                        <li><a href="#">Titulo do link</a></li>
+                        <li><a href="#">Titulo do link</a></li>
+                        <li><a href="#">Titulo do blalval</a></li>
+                        
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                BLÁ
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                 <li><a href="#">teste</a></li>
+                                 <li><a href="#">teste</a></li>
+                                 <li><a href="#">teste</a></li>
+                                 <li><a href="#">teste</a></li>
+                                <!--
+                                    TENTANDO COLOCAR UM LISTA DENTRO DA OUTRA NÃO DEU CERTO
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            BLÁ BLÁ BLÁ
+                                            <span class="caret"></span>
+                                        </a>
+                                        <ul class="dropdown-menu" role="menu">
+                                             <li><a href="#">teste</a></li>
+                                             <li><a href="#">teste</a></li>
+                                             <li><a href="#">teste</a></li>
+                                             <li><a href="#">teste</a></li>
+                                        </ul>
+                            
+                                    </li>
+                                
+                                -->
+                                
+                            </ul>
+                            
+                        </li>
+                        
+                    </ul>
+                    
+                    <hr />
+                    
+                    <h3>nav-justifid</h3>
+                    <ul class="nav nav-pills nav-justified">
+                        <li class="active"><a href="#">Titulo do link</a></li>
+                        <li><a href="#">Titulo do link</a></li>
+                        <li><a href="#">Titulo do link</a></li>
+                        <li class="disabled"><a href="#">Titulo do link</a></li>
+                    </ul>
+                    
+                    <hr />
+                    
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="active"><a href="#">Titulo link</a> </li>
+                        <li><a href="#">Titulo link</a> </li>
+                        <li><a href="#">Titulo link</a> </li>
+                        <li><a href="#">Titulo link</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       
+       
+        
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Óla Mundo</title>
+        <!-- Define a viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        
+        <meta charset="utf-8">
+         <!-- acionar CSS Bootstrap-->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        
+        <!-- css personalizado-->
+         <link href="css/estilo.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+        
+        <!--
+            muito pequeno ate 750 px
+            col-xs-1 ate 12 
+            <hr />
+            pequeno de 750 a 970 px
+            col-sm-1 ate 12
+            <hr />
+            medio de 970 a 1170 px
+            col-md-1 ate 12
+            <hr />
+            grande acima de 1170 px
+            col-lg-1 ate 12
+            <hr />
+        -->
+        
+        <div class="container">
+            <div class="row"> 
+                <div class="col-xs-12">
+                    <!--
+                    striped -> coloca linhas e colunas
+                    bordered -> aplicar cor em linha sim e linha não
+                    condensed -> Diminue os espaçamentos entre linhas
+                    hover -> Marca a linha selecionada conforme o andar do mouse
+                    
+                    -->
+                    <div class="table-responsive">
+                        <table class="table table-striped table-bordered table-condensed table-hover">
+                        <thead>
+                            <tr class="active">
+                                <th>Título</th>
+                                <th>Nome</th>
+                                <th>Sobre nome</th>
+                                <th>Idade</th>
+                                <th>Data Nascimento</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr >
+                                <th>Sr.</th>
+                                <th>Luciano</th>
+                                <th>Miguel</th>
+                                <th>26</th>
+                                <th>16/03/1990</th>
+                            </tr>
+                            <tr>
+                                <th>Sr.</th>
+                                <th>Luciano</th>
+                                <th>Miguel</th>
+                                <th>26</th>
+                                <th>16/03/1990</th>
+                            </tr>
+                             <tr>
+                                <th>Sr.</th>
+                                <th>Luciano</th>
+                                <th>Miguel</th>
+                                <th>26</th>
+                                <th>16/03/1990</th>
+                            </tr>
+                             <tr>
+                                <th>Sr.</th>
+                                <th>Luciano</th>
+                                <th>Miguel</th>
+                                <th>26</th>
+                                <th>16/03/1990</th>
+                            </tr>
+                             <tr>
+                                <th>Sr.</th>
+                                <th>Luciano</th>
+                                <th>Miguel</th>
+                                <th>26</th>
+                                <th>16/03/1990</th>
+                            </tr>
+                        </tbody>                            
+                    </table>
+                    </div>
+                    
+                </div>    
+            </div>
+        </div>
+        
+        
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>

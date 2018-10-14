@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Óla Mundo</title>
+        <!-- Define a viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        
+        <meta charset="utf-8">
+         <!-- acionar CSS Bootstrap
+            <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+         
+         COLOCANDO O LINK PARA ESCONDER IMPRESSAO   
+         -->
+         <link href="css/bootstrap.min.css" rel="stylesheet" media="all">
+        
+        <!-- css personalizado
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+        
+        COLOCANDO O LINK PARA ESCONDER IMPRESSAO
+        -->
+         <link href="css/estilo.css" rel="stylesheet" media="all">
+    </head>
+    <body>
+        
+        <!--
+            muito pequeno ate 750 px
+            col-xs-1 ate 12 
+            <hr />
+            pequeno de 750 a 970 px
+            col-sm-1 ate 12
+            <hr />
+            medio de 970 a 1170 px
+            col-md-1 ate 12
+            <hr />
+            grande acima de 1170 px
+            col-lg-1 ate 12
+            <hr />
+        -->
+        <!-- 
+            PARA COLOCAR NO RODA PÉ navbar-fixed-bottom 
+            PARA DEIXAR A COR DO MENU ESCURO navbar-inverse
+        -->         
+             
+        
+        
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    
+                    <!-- CRIAMOS DENTRO main.js o objeto (ttp), o bootstrep não reconhece automaticamente -->
+                    <h1>Tooltips</h1>
+                    
+                    <button type="button" class="btn btn-default ttp" data-toggle="tooltip" data-placement="left" title="Tooltip Left">
+                        Tooltip 1 - Left
+                    </button>
+                     
+                    <button type="button" class="btn btn-default ttp" data-toggle="tooltip" data-placement="top" title="Tooltip Top">
+                        Tooltip 2 - Top
+                    </button>
+                    
+                <button type="button" class="btn btn-default ttp" data-toggle="tooltip" data-placement="bottom" title="Tooltip bottom">
+                        Tooltip 3 - bottom
+                    </button>
+                    
+                <button type="button" class="btn btn-default ttp" data-toggle="tooltip" data-placement="right" title="Tooltip Right">
+                        Tooltip 4 - Right
+                    </button>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    
+                    <!-- CRIAMOS DENTRO main.js o objeto (ppv), o bootstrep não reconhece automaticamente -->
+                    <h1>Popover</h1>
+                    
+                    <button type="button" class="btn btn-default ppv" data-toggle="popover" data-placement="left" data-content="Conteudo do Popover" data-container="body">
+                        Tooltip 1 - Left
+                    </button>
+                     
+                    <button type="button" class="btn btn-default ppv" data-toggle="popover" data-placement="top" data-content="Conteudo do Popover" data-container="body">
+                        Tooltip 2 - Top
+                    </button>
+                    
+                    <button type="button" class="btn btn-default ppv" data-toggle="popover" data-placement="bottom" data-content="Conteudo do Popover" data-container="body" title="Popover com title">
+                        Tooltip 3 - bottom
+                    </button>
+                    
+                    <button type="button" class="btn btn-default ppv" data-toggle="popover" data-placement="right" data-content="Conteudo do Popover" data-container="body">
+                        Tooltip 4 - Right
+                    </button>
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>

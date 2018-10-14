@@ -1,0 +1,19 @@
+Layout customizado
+
+http://bootswatch.com/
+
+
+construtor
+http://layoutit.com/
+
+
+customiza alerts
+bootboxjs.com
+
+
+adicionar calendario ao sistema (data e hora)
+http://tarruda.github.io/bootstrap-datetimepicker/
+
+
+gera notificacoes para o usuario
+http://goodybag.github.io/bootstrap-notify/

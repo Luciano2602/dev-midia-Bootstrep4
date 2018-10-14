@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Óla Mundo</title>
+        <!-- Define a viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        
+        <meta charset="utf-8">
+         <!-- acionar CSS Bootstrap-->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        
+        <!-- css personalizado-->
+         <link href="css/estilo.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+        
+        <!--
+            muito pequeno ate 750 px
+            col-xs-1 ate 12 
+            <hr />
+            pequeno de 750 a 970 px
+            col-sm-1 ate 12
+            <hr />
+            medio de 970 a 1170 px
+            col-md-1 ate 12
+            <hr />
+            grande acima de 1170 px
+            col-lg-1 ate 12
+            <hr />
+        -->
+       
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-xs-6">
+                    
+                    <div class="col-xs-4">1</div>
+                    <div class="col-xs-4">2</div>
+                    <div class="col-xs-4">3</div>
+                    
+                    <div class="col-xs-4 col-md-12">4</div>
+                    <div class="col-xs-4 col-md-12">5</div>
+                    <div class="col-xs-4 col-md-12">6</div>
+                    
+                </div>
+                 <div class="col-xs-6">
+                    texto 2
+                </div>
+            </div>
+            
+            <hr />
+            
+            <div class="row">
+                <div class="col-xs-4">
+                    4 posicoes
+                </div>
+                <!-- offset- empurra a esquerda os blocos -->
+                <div class="col-xs-6 col-xs-offset-2">quero ocupar as 6 ultimas colunas</div>
+            </div>
+            
+            
+            
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 linhaCinza">
+                    10 espaços centrais
+                </div>
+            </div>
+            <hr />
+            
+            <div class="row">
+                
+                <div class="col-xs-12">
+                
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-10 col-md0offset-2 linhaBlu">
+                                    teste de aninhamenti
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+            <div class="row"></div>
+            <div class="row"></div>
+        </div>
+        
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>

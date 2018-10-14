@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Óla Mundo</title>
+        <!-- Define a viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        
+        <meta charset="utf-8">
+         <!-- acionar CSS Bootstrap
+            <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+         
+         COLOCANDO O LINK PARA ESCONDER IMPRESSAO   
+         -->
+         <link href="css/bootstrap.min.css" rel="stylesheet" media="all">
+        
+        <!-- css personalizado
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+        
+        COLOCANDO O LINK PARA ESCONDER IMPRESSAO
+        -->
+         <link href="css/estilo.css" rel="stylesheet" media="all">
+    </head>
+    <body>
+        
+        <!--
+            muito pequeno ate 750 px
+            col-xs-1 ate 12 
+            <hr />
+            pequeno de 750 a 970 px
+            col-sm-1 ate 12
+            <hr />
+            medio de 970 a 1170 px
+            col-md-1 ate 12
+            <hr />
+            grande acima de 1170 px
+            col-lg-1 ate 12
+            <hr />
+        -->
+        <!-- 
+            PARA COLOCAR NO RODA PÉ navbar-fixed-bottom 
+            PARA DEIXAR A COR DO MENU ESCURO navbar-inverse
+        -->         
+             
+        
+        
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    
+                   <h1>Buttons</h1>
+                    
+                    <div class="pageheader">
+                        <h1>Single Toggle</h1>
+                    </div>
+                    
+                    <button type="button" class="btn btn-primary" data-toggle="button">Single Toggle 1</button>
+                    <button type="button" class="btn btn-danger" data-toggle="button">Single Toggle 2</button>
+                    
+                    <button type="button" id="troca-estado" data-loading-text="Carregando..." class="btn btn-primary btnjs">
+                        Carregar algo
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- tem no main.js (btnjs) -->
+                    <div class="pageheader">
+                        <h1>CheckBox</h1>
+                    </div>
+                    
+                    <div class="btn btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active btnjs">
+                            <input type="checkbox" checked />Opção 1
+                        </label>
+                        <label class="btn btn-primary btnjs">
+                            <input type="checkbox" />Opção 2
+                        </label>
+                        <label class="btn btn-success btnjs">
+                            <input type="checkbox" /> Opção 3
+                        </label>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- tem no main.js (btnjs) -->
+                    <div class="pageheader">
+                        <h1>RadiosButin</h1>
+                    </div>
+                    
+                    <div class="btn btn-group" data-toggle="buttons">
+                        <label class="btn btn-primary active btnjs">
+                            <input type="radio" name="rdGroup1" id="rdGroup1" checked />Opção 1
+                        </label>
+                        
+                        <label class="btn btn-primary btnjs">
+                            <input type="radio" name="rdGroup1" id="rdGroup2" />Opção 2
+                        </label>
+                        
+                        <label class="btn btn-primary btnjs">
+                            <input type="radio" name="rdGroup1" id="rdGroup3" />Opção 3
+                        </label>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>

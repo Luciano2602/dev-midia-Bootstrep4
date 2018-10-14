@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Óla Mundo</title>
+        <!-- Define a viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        
+        <meta charset="utf-8">
+         <!-- acionar CSS Bootstrap-->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        
+        <!-- css personalizado-->
+         <link href="css/estilo.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+        
+        <!--
+            muito pequeno ate 750 px
+            col-xs-1 ate 12 
+            <hr />
+            pequeno de 750 a 970 px
+            col-sm-1 ate 12
+            <hr />
+            medio de 970 a 1170 px
+            col-md-1 ate 12
+            <hr />
+            grande acima de 1170 px
+            col-lg-1 ate 12
+            <hr />
+        -->
+        
+        <div class="container">
+            <div class="row"> 
+                <div class="col-xs-12">
+                    <hr/>
+                    <!--
+                    btn e btn-default tem que colocar SEMPRE
+                    -->
+                    <a href="https://www.google.com.br" class="btn btn-default"> Teste 01</a>
+                    <a href="https://www.google.com.br" class="btn btn-primary"> Teste 01</a>
+                    <a href="https://www.google.com.br" class="btn btn-success"> Teste 01</a>
+                    <a href="#" class="btn btn-info">Teste 01</a>
+                    <a href="#" class="btn btn-warning">Teste 01</a>
+                    <a href="#" class="btn btn-danger">Teste 01</a>
+                    <a href="#" class="btn btn-link">Teste 01</a>
+                    <button class="btn btn-primary">Botao link</button>
+                    <input type="submit" value="botão submeter" class="btn btn-info" />
+                </div>    
+            </div>
+        </div>
+        
+        <hr/>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3">
+                    <button class="btn btn-primary btn-xs">Botão muito pequeno </button>
+                </div>
+                <div class="col-xs-3">
+                    <button class="btn btn-info btn-sm">Botão pequeno </button>
+                </div>
+                <div class="col-xs-3">
+                    <button class="btn btn-default">Botão padrão</button>
+                </div>
+                <div class="col-xs-3">
+                    <button class="btn btn-danger btn-lg">Botão grande</button>
+                </div>
+            
+            </div>
+        </div>
+        
+        <hr/>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 ">
+                    <button class="btn btn-danger btn-lg btn-block">Block level</button>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <button class="btn btn-danger btn-lg btn-block">Block level</button>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <button class="btn btn-danger btn-lg btn-block" disabled="disabled">Block level</button>
+                </div>
+            </div>
+        </div>
+        
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,26 @@
+/*Estilo personalizado*/
+
+.linhaCinza{
+    
+    background: silver;
+}
+
+.linhaRed{
+    
+    background: red;
+}
+.linhaBlu{
+    
+    background: blue;
+}
+
+.linhaPersonalizada{
+    
+    background: purple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bg-color-padding p {
+    
+    padding: 15px;
+}

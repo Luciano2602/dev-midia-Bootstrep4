@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Óla Mundo</title>
+        <!-- Define a viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        
+        <meta charset="utf-8">
+         <!-- acionar CSS Bootstrap-->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        
+        <!-- css personalizado-->
+         <link href="css/estilo.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+        
+        <!--
+            muito pequeno ate 750 px
+            col-xs-1 ate 12 
+            <hr />
+            pequeno de 750 a 970 px
+            col-sm-1 ate 12
+            <hr />
+            medio de 970 a 1170 px
+            col-md-1 ate 12
+            <hr />
+            grande acima de 1170 px
+            col-lg-1 ate 12
+            <hr />
+        -->
+        
+        <div class="container">
+            <div class="row"> 
+                <div class="col-xs-12">
+                    
+                    <!--
+                        class="form-inline" deixa o forme um ao lado do outro
+                    -->
+                    <!--form-horizontal habilita o uso da class col no form -->
+                    <form class="form-horizontal"> 
+                        
+                        <div class="form-group">
+                            <!--control-label esta avisando o boostrap que é um label-->
+                            <label for="nome" class="col-xs-2 control-label" >Nome Completo:</label>
+                            <div class="col-xs-10">
+                                <input type="text" class="form-control" id="nome" placeholder="Nome:" />
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="tipo" class="col-xs-2 control-label">Tipo:</label>
+                            <div class="col-xs-10">
+                                <select class="form-control">
+                                    <option>Pessoa Fisica</option>
+                                    <option>Pessoa Juridica</option>
+                                </select> 
+                            </div>
+                        </div>    
+                        
+                        
+                        <div class="form-group">
+                            <label for="tipo" class="col-xs-2 control-label">Selecione:</label>
+                            <div class="col-xs-10">
+                                <label class="checkbox-inline">
+                                    <input type="checkbox" id="id1" value="1" >1
+                                </label>    
+                                <label class="checkbox-inline">
+                                    <input type="checkbox" id="id2" value="2" >2
+                                </label>    
+                                <label class="checkbox-inline">
+                                    <input type="checkbox" id="id3" value="3" >3
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="col-xs-2 control-label"> Seu E-mail:</label>
+                            <div class="col-xs-10">
+                                <p class="form-control-static">luciano@keySolution.com.br</p>
+                            </div>
+                        </div>
+                        
+                        
+                         <div class="form-group has-success has-feedback">
+                            <!--control-label esta avisando o boostrap que é um label-->
+                            <label for="nome" class="col-xs-2 control-label" >Nome Completo:</label>
+                            <div class="col-xs-10">
+                                <input type="text" class="form-control" id="nome" placeholder="Nome:" />
+                                
+                                <samp class="glyphicon glyphicon-ok form-control-feedback "></samp>
+                            </div>
+                            
+                        </div>
+                        
+                         <div class="form-group has-warning has-feedback form-group-sm">
+                            <!--control-label esta avisando o boostrap que é um label-->
+                            <label for="nome" class="col-xs-2 control-label" >Nome Completo:</label>
+                            <div class="col-xs-10">
+                                <input type="text" class="form-control" id="nome" placeholder="Nome:" />
+                                
+                                <!--
+                                    <samp class="glyphicon glyphicon-warning-sign form-control-feedback "></samp>
+                                -->
+                                <samp class="help-block">Texto de ajuda o campo . ex 111.111.111-11</samp>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="form-group has-warning has-feedback form-group-sm">
+                            <!--control-label esta avisando o boostrap que é um label-->
+                            <label for="nome" class="col-xs-2 control-label" >Nome Completo:</label>
+                            <div class="col-xs-10">
+                                <input type="text" class="form-control" id="nome" placeholder="Nome:" />                                
+                                
+                                    <samp class="glyphicon glyphicon-warning-sign form-control-feedback "></samp>            
+                            </div>
+                            
+                        </div>
+                        
+                        
+                         <div class="form-group has-error has-feedback form-group-lg">
+                            <!--control-label esta avisando o boostrap que é um label-->
+                            <label for="nome" class="col-xs-2 control-label" >Nome Completo:</label>
+                            <div class="col-xs-10">
+                                <input type="text" class="form-control" id="nome" placeholder="Nome:" />
+                                <samp class="glyphicon glyphicon-remove form-control-feedback "></samp>
+                            </div>
+                            
+                        </div>
+                        
+                        
+                        <div class="form-group">
+                            <div class="col-xs-offset-2 col-xs-10">
+                                <button type="submit" class="btn btn-default">Eviar Formulario</button>
+                            </div>
+                        </div>
+                        
+                    </form>
+                    
+                </div>    
+            </div>
+        </div>
+        
+        
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>

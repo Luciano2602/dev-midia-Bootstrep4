@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Óla Mundo</title>
+        <!-- Define a viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        
+        <meta charset="utf-8">
+         <!-- acionar CSS Bootstrap
+            <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+         
+         COLOCANDO O LINK PARA ESCONDER IMPRESSAO   
+         -->
+         <link href="css/bootstrap.min.css" rel="stylesheet" media="all">
+        
+        <!-- css personalizado
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+        
+        COLOCANDO O LINK PARA ESCONDER IMPRESSAO
+        -->
+         <link href="css/estilo.css" rel="stylesheet" media="all">
+    </head>
+    <body>
+        
+        <!--
+            muito pequeno ate 750 px
+            col-xs-1 ate 12 
+            <hr />
+            pequeno de 750 a 970 px
+            col-sm-1 ate 12
+            <hr />
+            medio de 970 a 1170 px
+            col-md-1 ate 12
+            <hr />
+            grande acima de 1170 px
+            col-lg-1 ate 12
+            <hr />
+        -->
+        <!-- 
+            PARA COLOCAR NO RODA PÉ navbar-fixed-bottom 
+            PARA DEIXAR A COR DO MENU ESCURO navbar-inverse
+        -->         
+             
+        
+        <nav class="navbar navbar-default navbar-fixed-top pading-cont-menu" role="navigation">
+            <div class="container-fluid">
+               
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-navegacao">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar empurra-cont"></span>                    
+                    </button>
+                    
+                    <div class="nav navbar-nav navbar-left menu-esp">  
+                        <img src="Imagens/logo.png" class="mg-top-img" style="width:50px;height:50px" alt="Logo" />  
+                        <a class="navbar-brand" href="#page-top"><p class="textoKey">Key Solution </p></a>
+                    </div>                    
+                    
+                    
+                    </div>
+                
+                <!-- mexido na linha 4291- esta -15pc -->
+                
+                <div class="collapse navbar-collapse " id="menu-navegacao">
+                    
+                    <ul class="nav nav-pills nav-justified menu-direita navbar-right" >
+                        
+                        <li><a href="#page-top"></a> </li> 
+                        <li class="active">
+                            <a class="" href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a class="" href="#servicos">Serviços</a>
+                        </li>
+                        <li>
+                            <a class="" href="#equipe">Equipe</a>
+                        </li>
+                        <li>
+                            <a class="" href="#quemSomos">Quem Somos</a>
+                        </li>
+                        <li>
+                            <a class="" href="#contato">Contato</a>
+                        </li>                        
+                        
+                    </ul>
+                </div>
+            </div>
+            
+        </nav>
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                                                        
+                    <div id="carousel01" class="carousel slide" data-ride="carousel" data-interval="2000">
+                        
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel01" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel01" data-slide-to="1" ></li>
+                            <li data-target="#carousel01" data-slide-to="2" ></li>
+                           
+                        </ol>    
+                        
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="Imagens/luciano.jpg" alt="luciano" style="width:100%;height:500px" />
+                                <div class="carousel-caption">
+                                    <h3>Título da imagem</h3>
+                                    <p>Texto relativo a imagem</p>                                    
+                                </div>
+                            </div>
+                             <div class="item">
+                                <img src="Imagens/fundoQuemSomos.jpg" alt="quem somos" style="width:100%;height:500px" />
+                            </div>
+                             <div class="item">
+                                <img src="Imagens/fundoContato.png" alt="contato" style="width:100%;height:500px" />
+                            </div>
+                        </div>
+                        
+                        <a class="left carousel-control" href="#carousel01" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        
+                        <a class="right carousel-control" href="#carousel01" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+			<div class="row" id="servicos">
+                <div class="col-xs-12">
+                    <h1>Serviços</h1>
+                    <p>
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                    </p>
+                
+                </div>               
+                
+            </div>
+            
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-center">
+                    <img src="Imagens/luciano.jpg" class="img-responsive img-rounded img-thumbnail" alt="Designer Web" />
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                   <h2>Designer Web</h2>
+                    <p>
+                        It is a long established fact that a reader will be distracted by the readable content
+                        of a page when looking at its layout. The point of using Lorem Ipsum is that it has a 
+                        more-or-less normal distribution of letters, as opposed to using 'Content here, content 
+                        here', making it look like readable English. Many desktop publishing packages and web page
+                        editors now use Lorem
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-center">
+                    <img src="Imagens/luciano.jpg" class="img-responsive img-rounded img-thumbnail" alt="Hospedagem e administracao" />
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                   <h2>Hospedagem </h2>
+                    <p>
+                        It is a long established fact that a reader will be distracted by the readable content
+                        of a page when looking at its layout. The point of using Lorem Ipsum is that it has a 
+                        more-or-less normal distribution of letters, as opposed to using 'Content here, content 
+                        here', making it look like readable English. Many desktop publishing packages and web page
+                        editors now use Lorem
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-center">
+                    <img src="Imagens/luciano.jpg" class="img-responsive img-rounded img-thumbnail" alt="Designer Web" />
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                   <h2>Desenvolvimento</h2>
+                    <p>
+                        It is a long established fact that a reader will be distracted by the readable content
+                        of a page when looking at its layout. The point of using Lorem Ipsum is that it has a 
+                        more-or-less normal distribution of letters, as opposed to using 'Content here, content 
+                        here', making it look like readable English. Many desktop publishing packages and web page
+                        editors now use Lorem
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-center">
+                    <img src="Imagens/luciano.jpg" class="img-responsive img-rounded img-thumbnail" alt="Hospedagem e administracao" />
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                   <h2>Designer </h2>
+                    <p>
+                        It is a long established fact that a reader will be distracted by the readable content
+                        of a page when looking at its layout. The point of using Lorem Ipsum is that it has a 
+                        more-or-less normal distribution of letters, as opposed to using 'Content here, content 
+                        here', making it look like readable English. Many desktop publishing packages and web page
+                        editors now use Lorem
+                    </p>
+                </div>
+            </div>
+			
+        </div>
+        
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>

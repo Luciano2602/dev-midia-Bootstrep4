@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Óla Mundo</title>
+        <!-- Define a viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        
+        <meta charset="utf-8">
+         <!-- acionar CSS Bootstrap
+            <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+         
+         COLOCANDO O LINK PARA ESCONDER IMPRESSAO   
+         -->
+         <link href="css/bootstrap.min.css" rel="stylesheet" media="all">
+        
+        <!-- css personalizado
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+        
+        COLOCANDO O LINK PARA ESCONDER IMPRESSAO
+        -->
+         <link href="css/estilo.css" rel="stylesheet" media="all">
+    </head>
+    <body>
+        
+        <!--
+            muito pequeno ate 750 px
+            col-xs-1 ate 12 
+            <hr />
+            pequeno de 750 a 970 px
+            col-sm-1 ate 12
+            <hr />
+            medio de 970 a 1170 px
+            col-md-1 ate 12
+            <hr />
+            grande acima de 1170 px
+            col-lg-1 ate 12
+            <hr />
+        -->
+        
+        <div class="container">
+            <div class="row">                 
+                <div class="col-xs-12">
+                    <h1>DropDown</h1>                 
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="btnDropDown01" data-toggle="dropdown">
+                            Menu DropDown
+                            <span class="caret"></span>
+                        </button>
+                        
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="btnDropDown01">
+                            
+                            <li role="presentation" class="dropdown-header">Desenvolvimento</li>
+                            
+                            <li role="presentation" class="disabled">
+                                <a href="#" role="menuitem">SqlServer</a>
+                            </li>
+                       
+                            <li role="presentation">
+                                <a href="#" role="menuitem">Php</a>
+                            </li>
+                       
+                            <li role="presentation">
+                                <a href="#" role="menuitem">C#</a>
+                            </li>
+                        
+                            <li role="presentation">
+                                <a href="#" role="menuitem">Java</a>
+                            </li>
+                        </ul>
+                        
+                    </div>                    
+                </div>
+                
+                <div class="col-xs-12">
+                    <h1>Button group</h1>
+                    
+                    <div class="btn-toolbar">
+                        <div class="btn-group btn-group-justified">
+                            <a href="#" class="btn btn-default">teste</a>               
+                            <a href="#" class="btn btn-default">teste</a>               
+                            <a href="#" class="btn btn-default">teste</a>               
+                        </div>   
+                    </div>    
+                    
+                    
+                    <!--para diversos grupos de botoes temos que usar a classe BTN-TOOLBAR -->
+                    <div class="btn-toolbar">
+                        <!--btn-group -->
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default">Item</button>
+                            <button type="button" class="btn btn-default">Item</button>
+                            <button type="button" class="btn btn-default">Item</button>
+                            <button type="button" class="btn btn-default">Item</button>
+                            <button type="button" class="btn btn-default">Item</button>                
+                        </div>   
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default">Item</button>
+                            <button type="button" class="btn btn-default">Item</button>
+                            <button type="button" class="btn btn-default">Item</button>
+                            <button type="button" class="btn btn-default">Item</button>
+                            <button type="button" class="btn btn-default">Item</button>    
+                            
+                            <div class="btn-group">
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="btnDropDown02" data-toggle="dropdown">
+                                        Menu DropDown
+                                        <span class="caret"></span>
+                                    </button>
+
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="btnDropDown02">
+
+                                        <li role="presentation" class="dropdown-header">Desenvolvimento</li>
+
+                                        <li role="presentation" class="disabled">
+                                            <a href="#" role="menuitem">SqlServer</a>
+                                        </li>
+
+                                        <li role="presentation">
+                                            <a href="#" role="menuitem">Php</a>
+                                        </li>
+
+                                        <li role="presentation">
+                                            <a href="#" role="menuitem">C#</a>
+                                        </li>
+
+                                        <li role="presentation">
+                                            <a href="#" role="menuitem">Java</a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            
+                            </div>
+                            
+                            
+                        </div>   
+                        <button type="button" class="btn btn-default">ITEM</button>
+                    </div>  
+                </div>
+                
+                
+                
+                <!-- DEIXANDO UM MENU DO LADO DO OUTRO -->
+                <div class="col-xs-12">
+                    <div class="btn-group">
+                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                            Menu DropDown
+                            <span class="caret"></span>
+                        </button>
+
+                        <ul class="dropdown-menu" role="menu">
+
+                            <li role="presentation" class="dropdown-header">Desenvolvimento</li>
+
+                            <li role="presentation" class="disabled">
+                                <a href="#" role="menuitem">SqlServer</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#" role="menuitem">Php</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#" role="menuitem">C#</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#" role="menuitem">Java</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="btn-group">
+                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                            Menu DropDown
+                            <span class="caret"></span>
+                        </button>
+
+                        <ul class="dropdown-menu" role="menu">
+
+                            <li role="presentation" class="dropdown-header">Desenvolvimento</li>
+
+                            <li role="presentation" class="disabled">
+                                <a href="#" role="menuitem">SqlServer</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#" role="menuitem">Php</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#" role="menuitem">C#</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#" role="menuitem">Java</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- deixando o menu abrinco pra cima -->
+                    
+                    <div class="btn-group dropup">
+                        <button class="btn btn-default " type="button">Menu DropDown</button>
+                        
+                        <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+
+                            <li role="presentation" class="dropdown-header">Desenvolvimento</li>
+
+                            <li role="presentation" class="disabled">
+                                <a href="#" role="menuitem">SqlServer</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#" role="menuitem">Php</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#" role="menuitem">C#</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#" role="menuitem">Java</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+       
+       
+        
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>

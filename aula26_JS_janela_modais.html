@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Óla Mundo</title>
+        <!-- Define a viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        
+        <meta charset="utf-8">
+         <!-- acionar CSS Bootstrap
+            <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+         
+         COLOCANDO O LINK PARA ESCONDER IMPRESSAO   
+         -->
+         <link href="css/bootstrap.min.css" rel="stylesheet" media="all">
+        
+        <!-- css personalizado
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+        
+        COLOCANDO O LINK PARA ESCONDER IMPRESSAO
+        -->
+         <link href="css/estilo.css" rel="stylesheet" media="all">
+    </head>
+    <body>
+        
+        <!--
+            muito pequeno ate 750 px
+            col-xs-1 ate 12 
+            <hr />
+            pequeno de 750 a 970 px
+            col-sm-1 ate 12
+            <hr />
+            medio de 970 a 1170 px
+            col-md-1 ate 12
+            <hr />
+            grande acima de 1170 px
+            col-lg-1 ate 12
+            <hr />
+        -->
+        <!-- 
+            PARA COLOCAR NO RODA PÉ navbar-fixed-bottom 
+            PARA DEIXAR A COR DO MENU ESCURO navbar-inverse
+        -->         
+             
+        
+        
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    
+                    <div class="pageheader">
+                        
+                        <h1>Janela Moadais</h1>
+                        <!-- no arquivo main.js esta implementado a abertura do modal, assim que recarregar a pagina
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal01">Abrir janela modal</button>
+                        <!-- Janela Modal -->
+                        <!-- se tirar o fade(modal fade) a janela abre mais rápido -->
+                        <div class="modal fade" id="modal01" role="dialog" tabindex="-1" aria-hidden="true">
+                            <!-- pode colocar modal-xs,md,sn-->
+                            <div class="modal-dialog modal-lg">
+                                
+                                <div class="modal-content">
+                                
+                                    <div class="modal-header">
+                                        
+                                        <button type="button" class="close" data-dismiss="modal">
+                                            <span aria-hidden="true">&times;</span>
+                                            <span class="sr-only">Fechar janela modal</span>
+                                        </button>
+                                        <h4 class="modal-title">Janela Modal</h4>
+                                    </div>
+                                    
+                                    <div class="modal-body">
+                                        <p>Conteudo da janela modal</p>
+                                    </div>
+                                    
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                                        <button type="button" class="btn btn-primary">Outro botao</button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- // Janela Modal -->
+                </div>
+            </div>
+        </div>
+        
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Óla Mundo</title>
+        <!-- Define a viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        
+        <meta charset="utf-8">
+         <!-- acionar CSS Bootstrap
+            <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+         
+         COLOCANDO O LINK PARA ESCONDER IMPRESSAO   
+         -->
+         <link href="css/bootstrap.min.css" rel="stylesheet" media="all">
+        
+        <!-- css personalizado
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+        
+        COLOCANDO O LINK PARA ESCONDER IMPRESSAO
+        -->
+         <link href="css/estilo.css" rel="stylesheet" media="all">
+    </head>
+    <body>
+        
+        <!--
+            muito pequeno ate 750 px
+            col-xs-1 ate 12 
+            <hr />
+            pequeno de 750 a 970 px
+            col-sm-1 ate 12
+            <hr />
+            medio de 970 a 1170 px
+            col-md-1 ate 12
+            <hr />
+            grande acima de 1170 px
+            col-lg-1 ate 12
+            <hr />
+        -->
+        
+        <div class="container">
+            <div class="row">                 
+                <div class="col-xs-12">
+                    <form>
+                        <hr />
+                        <div class="input-group">
+                            <span class="input-group-addon">Seu nome: </span>
+                            <input type="text" class="form-control" placeholder="Digite seu nome" />
+                        </div>
+                        
+                        <hr />
+                        
+                        <div class="input-group">
+                            <input type="text" class="form-control" />
+                            <span class="input-group-addon" required >Obrigatório</span>
+                        </div>
+                        
+                        <hr />
+                        
+                        <div class="input-group input-group-sm col-lg-2">
+                            <span class="input-group-addon ">R$</span>
+                            <input type="text" class="form-control" />
+                            <span class="input-group-addon">,00</span>
+                        </div>
+                        
+                        <hr />
+                        
+                    </form>
+                </div>
+                
+                <div class="col-xs-12">
+                    <form>
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <input type="checkbox" />
+                                <input type="checkbox" />
+                                <input type="checkbox" />
+                            </span>
+                            <input type="text" class="form-control" />
+                        </div>
+                        
+                        <hr />
+                        
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </span>
+                            
+                            <input type="text" class="form-control" />
+                            
+                            <span class="input-group-btn"> jhvjvh
+                                <button type="button" class="btn btn-default">Buscar</button>
+                            </span>
+                        </div>
+                        <hr />
+                    </form>
+                </div>
+                
+                <div class="col-xs-12">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="form-control" />
+                            
+                            <div class="input-group-btn">
+                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                    Selecione um Estado
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">SP</a></li>
+                                    <li><a href="#">RJ</a></li>
+                                    <li><a href="#">MG</a></li>
+                                    <li><a href="#">PE</a></li>
+                                </ul>
+                            </div>
+                        </div>                           
+                        
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+       
+       
+        
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Óla Mundo</title>
+        <!-- Define a viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        
+        <meta charset="utf-8">
+         <!-- acionar CSS Bootstrap
+            <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+         
+         COLOCANDO O LINK PARA ESCONDER IMPRESSAO   
+         -->
+         <link href="css/bootstrap.min.css" rel="stylesheet" media="all">
+        
+        <!-- css personalizado
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+        
+        COLOCANDO O LINK PARA ESCONDER IMPRESSAO
+        -->
+         <link href="css/estilo.css" rel="stylesheet" media="all">
+    </head>
+    <body>
+        
+        <!--
+            muito pequeno ate 750 px
+            col-xs-1 ate 12 
+            <hr />
+            pequeno de 750 a 970 px
+            col-sm-1 ate 12
+            <hr />
+            medio de 970 a 1170 px
+            col-md-1 ate 12
+            <hr />
+            grande acima de 1170 px
+            col-lg-1 ate 12
+            <hr />
+        -->
+        <!-- 
+            PARA COLOCAR NO RODA PÉ navbar-fixed-bottom 
+            PARA DEIXAR A COR DO MENU ESCURO navbar-inverse
+        -->         
+             
+        
+        
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header">
+                        <h1>Alerts <small> Elementos alert</small></h1>
+                    </div>   
+                    
+                    <div class="alert alert-success">Formulário Sucesso!</div>
+                    <div class="alert alert-warning">Cuidado ao preencher o formulario</div>
+                    <div class="alert alert-info">Preencher todos os compos do formulario</div>
+                    <div class="alert alert-danger">Voce não preencheu o formulario corrento</div>
+                    
+                    
+                    
+                    <div class="alert alert-danger alert-dismissible">
+                        <strong>Voce </strong> não preencheu o formulario corrento
+                        <button type="button" class="close" data-dismiss="alert">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        
+                        <strong>Voce</strong> não preencheu os campos <a hrf="#" class="alert-link">Corretamente</a>!
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-xs12">
+                    <h1>Progress bar <small> Elemento progress bar</small></h1>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemin="100" style="width: 60%">
+                        
+                        <span class="sr-only">60% completo...</span> 
+                    </div>        
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuemin="0" aria-valuemin="100" style="width: 70%">
+                        
+                        <span>60% completo...</span> 
+                    </div>        
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemin="100" style="width: 80%">
+                        
+                        <span>60% completo...</span> 
+                    </div>        
+                </div>
+                
+            </div> 
+        </div>
+        
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>

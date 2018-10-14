@@ -1,0 +1,138 @@
+/*Estilo personalizado*/
+
+.linhaCinza{
+    
+    background: silver;
+}
+
+.linhaRed{
+    
+    background: red;
+}
+.linhaBlu{
+    
+    background: blue;
+}
+
+.linhaPersonalizada{
+    
+    background: purple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bg-color-padding p {
+    
+    padding: 15px;
+}
+
+body{
+    
+    padding-top: 70px;
+}
+/*Estilo personalizado*/
+
+
+body{
+    
+    padding-top: 45px;
+}
+
+.navbar-brand{
+    
+    font-weight: 700;
+    
+}
+.menu-esp{
+    margin-left: -16px;
+    margin-bottom: -35px;
+}
+
+.textoKey{
+    
+    margin-left: 72px;
+    position: absolute;
+    margin-top: 8px;
+}
+.mg-top-img{
+    margin-top: 8px;
+}
+.menu-direita{
+    margin-right: -30px;
+}
+.pading-cont-menu{
+    padding-bottom: 10px;
+}
+.empurra-cont{
+    margin-bottom: 10px;
+}
+.marging-default{
+    margin-top: 30px;
+}
+
+@media (max-width:1154px){
+    
+    
+    .menu-direita{
+        margin-right: -48px;
+    }
+}
+
+@media (max-width:1009px){
+    
+    
+    .menu-direita{
+        position: relative;
+        margin-top: 13px;
+        margin-right: -60px;
+    }
+    
+    .menu-esp{
+        margin-left: -26px;
+        margin-bottom: -35px;  
+    }
+
+    .textoKey{
+        margin-left: 67px;
+        position: absolute;
+        margin-top: 8px;
+    }
+    .mg-top-img{
+        margin-top: 6px;
+    }
+}
+
+@media (max-width:835px){
+    .textoKey{
+        font-size: 16px;
+    }
+    .menu-direita {
+        margin-right: -54px;
+    }
+}
+@media (max-width:792px){
+    .textoKey{
+        font-size: 15px;
+    }
+}
+@media (max-width:767px){
+    .textoKey{
+        font-size: 19px;
+        margin-left: 67px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
